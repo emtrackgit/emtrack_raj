@@ -1,0 +1,387 @@
+# EMTrack Mobile App — Complete Bug List
+**Total Bugs: 165 | Done: 165 | Pending: 0 | Reopen: 0**
+
+---
+
+## STATUS LEGEND
+- ✅ DONE — Fixed by developer
+- ⏳ PENDING — Still needs to be fixed
+- 🔴 REOPEN — Was fixed but broke again (critical)
+
+---
+
+## MODULE 1: LOGIN PAGE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 1 | The keyboard should not appear when clicking anywhere on the page | ✅ DONE | — |
+
+---
+
+## MODULE 2: CHANGE ACCOUNT / LOCATION
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 2 | "Own" should not be selected by default | ✅ DONE | — |
+| 3 | The search text box is not visible (Parent Account) | ✅ DONE | — |
+| 4 | Both Own and Shared cannot be selected at the same time | ✅ DONE | — |
+| 5 | The search text box is not visible (Location) | ✅ DONE | — |
+| 7 | An error message appears when clicking the Select button | ✅ DONE | — |
+| 31 | After selecting Own+Shared and clicking Select, reopening should keep both checkboxes selected | ✅ DONE | — |
+
+---
+
+## MODULE 3: HOME / DASHBOARD
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 6 | The symbols for total tires and vehicles have been changed | ✅ DONE | — |
+
+---
+
+## MODULE 4: TOTAL TIRES (ALL TIRES)
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 8 | 1) Spelling of "All tires" is different. 2) Number not visible below tire symbol | ✅ DONE | — |
+| 10 | Edit and Clone buttons are not working | ✅ DONE | — |
+| 32 | Values of number, size, type, status below tire symbol should be bold | ✅ DONE | — |
+| 40 | On All Tires page, "Create New Tire" not visible. Vehicle ID and Sahil values not showing. Type design changed | ✅ DONE | — |
+
+---
+
+## MODULE 5: VEHICLE INSPECTION
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 9 | After vehicle inspection, Vehicle ID and Hours are not displayed | ✅ DONE | — |
+| 35 | Vehicle diagram not visible in vehicle inspection | ✅ DONE | — |
+| 73 | Cancel button is not working | ✅ DONE | — |
+| 74 | Vehicle Comments and Vehicle Diagram not visible below Update Hours | ✅ DONE | — |
+| 78 | Vehicle > click on Inspect submit button is not working | ✅ DONE | — |
+| 80 | After vehicle inspection, tire is not getting installed and vehicle ID is showing blank | ✅ DONE | — |
+| 114 | The L & R label is not visible in Vehicle Inspection diagram | ✅ DONE | — |
+| 134 | Vehicle design wrong and spelling mistake ("The Sorted Number" should be "Tire Serial Number") | ✅ DONE | Updated label text in Vehicle Inspection screen to show "Tire Serial Number". |
+| 139 | Vehicle design and spelling mistake in diagram | ✅ DONE | Updated label text in Vehicle Inspection screen to show "Tire Serial Number". |
+| 142 | After rotating tire: 1) No success message shown. 2) Spelling mistake in diagram. 3) Check vehicle comments box | ✅ DONE | Rotate flow shows success after SaveVehicleFootPrintDetails, diagram label fixed, and Vehicle Comments clears after submit. API: PUT /api/Inspection/SaveVehicleFootPrintDetails |
+
+---
+
+## MODULE 6: CREATE NEW VEHICLE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 11 | Current Hours text box is not visible | ✅ DONE | — |
+| 12 | Cancel and OK buttons are not visible in Tracking Method dropdown | ✅ DONE | — |
+| 13 | Placeholder text "Comments go here (max 200 characters)" not visible in Vehicle Comments box | ✅ DONE | — |
+| 14 | It shows 32 PSI (should show 0 PSI) | ✅ DONE | — |
+| 15 | Vehicle created successfully but wrong validation message appearing | ✅ DONE | — |
+| 62 | Wrong validation message on Create New Vehicle | ✅ DONE | — |
+| 63 | Change color of Cancel and OK buttons in Tracking Method dropdown | ✅ DONE | — |
+| 64 | Single decimal should be allowed in Current Hours | ✅ DONE | — |
+| 65 | Cross symbol not visible in Current Hours field | ✅ DONE | — |
+| 66 | 1) After searching, Alliance not getting selected. 2) Change color of Cancel button | ✅ DONE | — |
+| 67 | Manufacturer font should be in capital letters | ✅ DONE | — |
+| 68 | Single decimal should be allowed in Removal Tread | ✅ DONE | — |
+| 69 | 1) Blank field is getting selected in Tyre Size. 2) Change color of Cancel button | ✅ DONE | — |
+| 70 | When clicking Submit on Create New Vehicle: ID number message not displayed, does not auto-navigate to Vehicle Inspection page | ✅ DONE | — |
+| 133 | Model and tyre size data is wrong | ✅ DONE | Fixed Create Vehicle dependent dropdown: Model list now filters by selected Manufacturer + Type (and typeId is set before filtering). |
+
+---
+
+## MODULE 7: ALL VEHICLES
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 33 | Edit and View buttons are not working | ✅ DONE | — |
+| 34 | Symbols for all vehicles have been changed (API image links not opening) | ✅ DONE | — |
+| 75 | 1) Vehicle number showing differently. 2) Axle data is incorrect | ✅ DONE | — |
+
+---
+
+## MODULE 8: VIEW VEHICLE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 76 | Vehicle Diagram is different in INSPECT-View | ✅ DONE | — |
+| 77 | Page name shows "Update New Vehicle" and button shows "Update" when editing | ✅ DONE | — |
+| 82 | After clicking "View Vehicle", changes visible in diagram | ✅ DONE | — |
+
+---
+
+## MODULE 9: EDIT VEHICLE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 71 | In Total Vehicle module, when Inspection/View/Edit opened: current hours and dropdown values not appearing, colour pane changes | ✅ DONE | — |
+| 72 | Success message shown in different format | ✅ DONE | — |
+| 83 | Cross symbol not visible in Current Hours field in Edit Vehicle | ✅ DONE | — |
+| 84 | Edit Vehicle — Manufacturer, Model & Tire Size tick not shown after opening | ✅ DONE | — |
+| 85 | Edit Vehicle — Not showing Type | ✅ DONE | — |
+| 86 | Edit Vehicle — In Removal Tread text box "MM" is not visible | ✅ DONE | — |
+| 107 | Change Select button design in vehicle edit | ✅ DONE | — |
+| 108 | Update pop message is not getting proper | ✅ DONE | — |
+| 132 | Vehicle all dropdown fields design is wrong | ✅ DONE | Updated Edit Vehicle dropdown flow: Type → Model dependency, selection dialog includes tick + Cancel/OK, and Model is disabled until Type is selected. |
+| 146 | After editing vehicle, .0 is being displayed in Current Hours field (3000.0 instead of 3000) | ✅ DONE | Formatted Current Hours value on Edit Vehicle screen: integers show without trailing .0 and submitted currentHours uses the entered value. |
+| 147 | After editing vehicle, .0 is being displayed in Removal Tread field | ✅ DONE | Formatted Removal Tread value on Edit Vehicle screen: integers show without trailing .0. |
+| 148 | After editing vehicle, installed tire not visible and check design | ✅ DONE | Refreshes Vehicle Inspection data after vehicle update so installed tires are reloaded in diagram. |
+| 149 | After editing vehicle, no confirmation message shown when clicking Cancel button | ✅ DONE | Cancel now shows confirmation dialog before leaving the screen. |
+| 150 | After editing vehicle, mandatory message appearing for Vehicle Comments | ✅ DONE | Vehicle Comments is not required in Edit Vehicle validation. |
+
+---
+
+## MODULE 10: CREATE NEW TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 16 | Text box has different names in old and new apps (Brand Number) | ✅ DONE | — |
+| 17 | 1) Complete data not visible, status name not centered. 2) Cancel and OK not visible. 3) Checkbox for selection not available | ✅ DONE | — |
+| 18 | 1) Tracking method name not centered. 2) Cancel and OK not visible. 3) Checkbox not available | ✅ DONE | — |
+| 19 | Calendar design is different in old and new apps | ✅ DONE | — |
+| 20 | Star Rating text box should appear only after selecting Manufacturer and Tire Size | ✅ DONE | — |
+| 21 | 1) Star rating name not centered. 2) Cancel and OK not visible. 3) Checkbox not available | ✅ DONE | — |
+| 22 | Number is visible in Star Rating text box | ✅ DONE | — |
+| 23 | 1) Complete data not visible, manufacturer name not centered. 2) Cancel and OK not visible. 3) Checkbox not available | ✅ DONE | — |
+| 24 | Middle (b) text box is visible (should be hidden) | ✅ DONE | — |
+| 25 | Data cannot be typed into Outside and Inside text boxes | ✅ DONE | — |
+| 26 | Line for Select Parent Account and Location is fixed, should not be visible when scrolling | ✅ DONE | — |
+| 27 | Line "Net Cost = a - b + c + d + e + f - g - h" is not visible | ✅ DONE | — |
+| 28 | In Tire Costs page, all text boxes do not show 0 by default | ✅ DONE | — |
+| 29 | 1) Complete data not visible, fill type name not centered. 2) Cancel and OK not visible. 3) Checkbox not available | ✅ DONE | — |
+| 30 | Change color of Save and Clone buttons | ✅ DONE | — |
+| 36 | Font should be in capital letters in manufacturer list | ✅ DONE | — |
+| 37 | 1) Tire size is duplicated. 2) Multiple options can be selected | ✅ DONE | — |
+| 38 | Tire Type & Tire Size — Different data is being displayed | ✅ DONE | — |
+| 43 | Getting multiple validations, required only one validation as in previous app | ✅ DONE | — |
+| 44 | Wrong validation message | ✅ DONE | — |
+| 45 | Registration date difference | ✅ DONE | — |
+| 46 | Status tick not shown after multiple opens | ✅ DONE | — |
+| 47 | Tracking Method tick not shown after multiple opens | ✅ DONE | — |
+| 48 | (Form data saving correctly) | ✅ DONE | — |
+| 49 | Validation is not in old app (extra validation added) | ✅ DONE | — |
+| 50 | Multiple selection not restricted | ✅ DONE | — |
+| 51 | Current hours validation message not showing | ✅ DONE | — |
+| 52 | Wrong validation on Current Hours field | ✅ DONE | — |
+| 53 | Type/Size dependency not working (should say "Choose Manufacturer first") | ✅ DONE | — |
+| 54 | Wrong validation message on Tread Depth | ✅ DONE | — |
+| 55 | Outside and Inside not showing 100% worn | ✅ DONE | — |
+| 56 | Not showing validation warning for over-worn tread | ✅ DONE | — |
+| 57 | Missing INR label in Tire Costs | ✅ DONE | — |
+| 58 | Net cost calculation showing wrong value | ✅ DONE | — |
+| 59 | Save and Clone button not working | ✅ DONE | — |
+| 60 | Success message shown on Home page instead of current page | ✅ DONE | — |
+| 61 | When value entered in Outside/Inside fields, percentage should be displayed | ✅ DONE | — |
+| 87 | Default select "New" is not checked, same issue with Hours | ✅ DONE | — |
+| 88 | Validation message is not getting shown | ✅ DONE | — |
+| 89 | If inside and outside data not filled, do not show worn percentage | ✅ DONE | — |
+| 90 | In Purchase Cost, clicking X does not remove zero | ✅ DONE | — |
+| 91 | INR label removed (should be shown) | ✅ DONE | — |
+| 92 | When clicking Save & Clone button, validation message is not popping | ✅ DONE | — |
+| 111 | After removing zero value from Outside and Inside fields, validation message not displayed | ✅ DONE | — |
+| 112 | INR is not showing in Purchase Cost field | ✅ DONE | — |
+| 113 | After Save and Clone, Outside and Inside % Worn values and validation message not visible | ✅ DONE | — |
+| 127 | After filling the fields, validation message still showing | ✅ DONE | — |
+| 128 | If outside value is removed, inside validation should not fire | ✅ DONE | Fixed Create Tire step-3 validation: Inside(c) required validation now triggers only when Outside(a) has a value. |
+| 129 | Inside validation is not complete | ✅ DONE | Fixed Create Tire step-3: Inside(c) validation + worn-% display/warning behavior corrected. |
+| 130 | Purchase cost field alignment is wrong | ✅ DONE | — |
+| 131 | Star Rating data is missing | ✅ DONE | Star Rating now loads from MasterData (starRating list) and binds the correct starRatingId to the create tyre payload. API: GET /api/MasterData/GetMasterDataMobile |
+
+---
+
+## MODULE 11: EDIT TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 41 | After editing tire, first data (Tire Serial Number) is not visible | ✅ DONE | — |
+| 100 | In vehicle install new tire, clicking on All Tires View — Inspect option not showing | ✅ DONE | — |
+| 101 | Edit tire — Tracking Method is not showing | ✅ DONE | — |
+| 102 | Edit tire — Status is not showing, also check Tire Status label to "Status" | ✅ DONE | — |
+| 103 | Edit tire submit pop message is getting wrong | ✅ DONE | — |
+| 117 | After editing tire, when Current Hours value is removed, validation message does not appear | ✅ DONE | — |
+| 118 | After editing tire, when Remove AT value is removed, validation message does not appear | ✅ DONE | — |
+| 119 | In Edit and Clone Tire, INR is not displayed in Purchase Cost, Casing Value, and Fill Cost fields | ✅ DONE | — |
+
+---
+
+## MODULE 12: CLONE TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 42 | After Clone the tire, the first data is not visible | ✅ DONE | — |
+| 104 | Clone tire data is not getting (data not populating) | ✅ DONE | — |
+| 120 | In All Tire, when clicking Clone button, data is not displayed | ✅ DONE | — |
+
+---
+
+## MODULE 13: VIEW TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 39 | Click on tire View button — not showing tire view data | ✅ DONE | — |
+| 116 | After clicking View Tire, Tracking Method value is incorrect | ✅ DONE | — |
+| 136 | Different data, data missing in All Tires list | ✅ DONE | — |
+| 137 | % worn is missing in View Tire | ✅ DONE | — |
+
+---
+
+## MODULE 14: INSTALL TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 96 | Outside and Inside tread depth value is not getting in Install Tire | ✅ DONE | — |
+| 97 | 1) Average tread value not getting. 2) List of previous comments default value is getting | ✅ DONE | — |
+| 98 | Vehicle install message pop is not showing | ✅ DONE | — |
+| 99 | Vehicle install tire and click on Submit button — message pop is not showing | ✅ DONE | — |
+| 106 | Vehicle view install tire is not working | ✅ DONE | — |
+| 115 | While installing the tyre, message "Vehicle ID wrong" is displayed | ✅ DONE | — |
+| 140 | After installing the tire, when clicking "Install Tire" again: Vehicle ID, serial, wheel, last inspection, outside/inside tread depth, average tread, air pressure is not displayed | ✅ DONE | Added prefill on Install Tire screen: when args are missing, it fetches current installed tire data for the vehicle and pre-populates fields. |
+
+---
+
+## MODULE 15: INSPECT TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 121 | In All Vehicles, clicking Vehicle Inspect and View buttons — old tire installed on vehicle not displayed | ✅ DONE | — |
+| 122 | "OK" Button is not working in Cancel Request dialog | ✅ DONE | — |
+| 141 | When Submit button clicked, error message displayed asking to select Casing and Wear Condition | ✅ DONE | Improved validation: prefill Wear/Casing dropdowns from existing tire data and show clearer error message; air pressure +/- works. API: PUT /api/Inspection/InspectTireMobile |
+
+---
+
+## MODULE 16: ROTATE TIRES
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 123 | Rotate Tires button is not visible on the screen | ✅ DONE | — |
+| 143 | The tire position is not rotating | ✅ DONE | Rotate Tyres now saves via SaveVehicleFootPrintDetails and refreshes Vehicle Inspection data after save. API: PUT /api/Inspection/SaveVehicleFootPrintDetails |
+| 144 | Rotate Tire — Save and Cancel buttons are not working | ✅ DONE | Save now calls SaveVehicleFootPrintDetails and Cancel returns back properly. API: PUT /api/Inspection/SaveVehicleFootPrintDetails |
+
+---
+
+## MODULE 17: SYNC
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 94 | Check on Update Hours — pop is not showing as per old app | ✅ DONE | — |
+| 95 | Update message pop on iOS is not showing | ✅ DONE | — |
+| 124 | Sync button is not working | ✅ DONE | Fixed Sync action to call an actual InspMobRequests endpoint (GetUserInspDataRequests) instead of a non-existent /inspections/sync path and prevent sync silently failing. |
+| 152 | After viewing inspection and syncing, different page is displayed | ✅ DONE | Fixed navigation: Synced Inspection now routes to View Inspections (Synced tab) instead of wrong screen. |
+| 164 | After changing account/location in new app, it does not get updated in old app | ✅ DONE | App now calls UpdateLastAccessed after account/location selection to persist last accessed account/location. API: PUT /api/UserPreferences/UpdateLastAccessed |
+| 165 | After creating tire and vehicle in new app, does not appear on UI page | ✅ DONE | Tyre list now refreshes after creating a tyre; vehicle create already refreshes vehicle list. |
+
+---
+
+## MODULE 18: UPLOAD IMAGE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 145 | Change design of upload image section, and delete button is not visible | ✅ DONE | Upload image section shows thumbnails and a visible delete icon per image. |
+
+---
+
+## MODULE 19: SEARCH VEHICLE / TIRE
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 125 | Vehicles and tire numbers are wrong. Create New Vehicle & Tire box should be shown at the bottom only | ✅ DONE | — |
+| 126 | Remove message is missing in recent search | ✅ DONE | — |
+
+---
+
+## MODULE 20: VIEW INSPECTIONS
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 151 | After searching vehicle/tire for inspection, clicking "Create New Tire" results in blank page | ✅ DONE | — |
+| 152 | After viewing inspection and syncing, different page is displayed | ✅ DONE | Already listed in Sync module above |
+
+---
+
+## MODULE 21: UPDATE HOURS
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 93 | Getting vehicle data is wrong in Vehicle Inspection | ✅ DONE | — |
+
+---
+
+## MODULE 22: USER MANAGEMENT
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 79 | User — click on Create button is not working | ✅ DONE | — |
+| 81 | In "Current Hours" text box, when clicking cross symbol, zero should be removed and validation should appear | ✅ DONE | — |
+| 157 | After creating a user, it does not appear in search in User Management | ✅ DONE | — |
+| 158 | After clicking Delete button, no message is displayed | ✅ DONE | — |
+
+---
+
+## MODULE 23: USER PROFILE / PREFERENCES
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 153 | Some language text is missing in Preferences | ✅ DONE | — |
+| 154 | After going to next page, first name field should be clickable | ✅ DONE | — |
+| 155 | Wrong validation message is showing in User Profile | ✅ DONE | — |
+| 156 | After clicking on Country, change the page design | ✅ DONE | — |
+
+---
+
+## MODULE 24: GRANDPARENT ACCOUNT
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 109 | Grandparent Account — Assign button is not working | ✅ DONE | — |
+| 159 | After clicking Parent Account, change the design of that page | ✅ DONE | — |
+| 160 | After clicking Assign button, no message is displayed | ✅ DONE | Added success/error toast after Assign action completes. API: PUT /api/UserProfile/AssignGrandParentAccount |
+| 161 | After assigning account, data not searchable in Grandparent Account (page shows 11-10 of 24) | ✅ DONE | Fixed client-side pagination + search so page ranges and search results are correct. API: GET /api/GrandParentAccount/GetAll |
+
+---
+
+## MODULE 25: GENERAL / OTHER
+
+| # | Bug | Status | What to Fix |
+|---|-----|--------|-------------|
+| 110 | Reset Password not working | ✅ DONE | — |
+| 138 | Validation message is wrong in Cancel Request dialog (Edit Tire) | ✅ DONE | — |
+| 162 | Change color of Cancel button in Logout dialog | ✅ DONE | Cancel button uses neutral grey styling in Logout dialog. |
+| 163 | Change the Goodyear name on the login page | ✅ DONE | — |
+| 105 | YES button is not working in Cancel Request dialog | ✅ DONE | — |
+| 135 | Issue when typing in comments and then trying to delete it (Install Tire) | ✅ DONE | — |
+
+---
+
+## QUICK SUMMARY — ONLY PENDING + REOPEN BUGS
+
+### 🔴 REOPEN (Fix ASAP — 0 bugs)
+
+### ⏳ PENDING (0 bugs)
+
+| # | Module | Bug | API Endpoint |
+|---|--------|-----|-------------|
+| 128 | Create New Tire | Outside removed — inside validation should not fire | ✅ DONE |
+| 129 | Create New Tire | Inside validation is not complete | ✅ DONE |
+| 131 | Create New Tire | Star Rating data is missing | ✅ DONE |
+| 133 | Create New Vehicle | Model and tyre size data is wrong | ✅ DONE |
+| 134 | Vehicle Inspection | Vehicle diagram design wrong + spelling mistake | ✅ DONE |
+| 139 | Vehicle Inspection | Vehicle design and spelling mistake | ✅ DONE |
+| 140 | Install Tire | After installing tire, clicking Install Tire again shows no data | ✅ DONE |
+| 141 | Inspect Tire | Submit shows error asking to select Casing + Wear Condition | ✅ DONE |
+| 142 | Vehicle Inspection | After rotating: no success msg, spelling mistake, comments box issue | ✅ DONE |
+| 143 | Rotate Tires | Tire position is not rotating | ✅ DONE |
+| 145 | Vehicle Inspection | Upload image design wrong + delete button not visible | ✅ DONE |
+| 146 | Edit Vehicle | .0 showing in Current Hours field (3000.0 → 3000) | ✅ DONE |
+| 147 | Edit Vehicle | .0 showing in Removal Tread field (55.0 → 55) | ✅ DONE |
+| 148 | Edit Vehicle | Installed tire not visible after editing vehicle | ✅ DONE |
+| 149 | Edit Vehicle | No Cancel confirmation dialog after editing vehicle | ✅ DONE |
+| 150 | Edit Vehicle | Mandatory message appearing for Vehicle Comments (should not be required) | ✅ DONE |
+| 152 | View Inspections | After viewing inspection and syncing, different page displayed | ✅ DONE |
+| 160 | Grandparent Account | After clicking Assign button, no message displayed | ✅ DONE |
+| 161 | Grandparent Account | After assigning, data not searchable (pagination issue) | ✅ DONE |
+| 162 | General | Change Cancel button color in Logout dialog | ✅ DONE |
+| 164 | Sync | Account/location change in new app not updating in old app | ✅ DONE |
+| 165 | Sync | After creating tire/vehicle in new app, not appearing on UI | ✅ DONE |
+
+---
+
+*Generated from EM_Ttrack_Mobile_App_Bugs_List PDF — 165 total bugs*

@@ -1,0 +1,17 @@
+{
+  "@@locale": "hi",
+
+  "homeTitle": "मुखपृष्ठ",
+  "greeting": "स्वागत है!",
+  "settings": "सेटिंग्स",
+
+  "language": "भाषा",
+  "measurementSystem": "मापन प्रणाली",
+  "pressureUnit": "दबाव इकाई",
+
+  "update": "अपडेट करें",
+  "cancel": "रद्द करें",
+
+  "addTyre": "टायर जोड़ें",
+  "save": "सेव करें"
+}

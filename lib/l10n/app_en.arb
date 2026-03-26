@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+
+  "homeTitle": "Home",
+  "greeting": "Welcome!",
+  "settings": "Settings",
+
+  "language": "Language",
+  "measurementSystem": "Measurement System",
+  "pressureUnit": "Pressure Unit",
+
+  "update": "Update",
+  "cancel": "Cancel",
+
+  "addTyre": "Add Tyre",
+  "save": "Save"
+}
