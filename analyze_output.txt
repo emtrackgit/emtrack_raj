@@ -1,0 +1,496 @@
+Analyzing emtrack_pro-sonu-feature...                           
+
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:71:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:72:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:86:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:94:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:95:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:109:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:123:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:148:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:182:17 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_tyre_controller.dart:191:17 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_vehicles_controller.dart:48:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_vehicles_controller.dart:69:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_vehicles_controller.dart:71:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/all_vehicles_controller.dart:72:7 • avoid_print
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/controllers/all_vehicles_controller.dart:165:21 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/controllers/all_vehicles_controller.dart:166:21 • deprecated_member_use
+   info • The file name 'auth_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/controllers/auth_controller copy.dart:1:1 • file_names
+   info • The file name 'change_account_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/controllers/change_account_controller copy.dart:1:1 • file_names
+   info • The variable name 'AllVehicleCtrl' isn't a lowerCamelCase identifier • lib/controllers/change_account_controller copy.dart:159:11 • non_constant_identifier_names
+   info • The file name 'create_vehicle_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/controllers/create_vehicle_controller copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller copy.dart:227:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller copy.dart:283:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:135:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:136:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:137:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:139:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:177:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:178:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:205:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:206:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controller.dart:364:7 • avoid_print
+warning • Unused import: 'dart:convert' • lib/controllers/create_vehicle_controllerwwww.dart:1:8 • unused_import
+warning • Unused import: 'package:http/http.dart' • lib/controllers/create_vehicle_controllerwwww.dart:2:8 • unused_import
+warning • Unused import: 'package:emtrack/views/all_vehicles_list_view.dart' • lib/controllers/create_vehicle_controllerwwww.dart:5:8 • unused_import
+warning • Unused import: 'package:emtrack/views/home/home_view.dart' • lib/controllers/create_vehicle_controllerwwww.dart:7:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controllerwwww.dart:253:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/create_vehicle_controllerwwww.dart:309:5 • avoid_print
+warning • Unused import: 'dart:convert' • lib/controllers/grand_parent_account_controller/grand_parent_account_controller.dart:1:8 • unused_import
+warning • Unused import: 'package:emtrack/routes/app_pages.dart' • lib/controllers/grand_parent_account_controller/grand_parent_account_controller.dart:5:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grand_parent_account_controller.dart:126:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grand_parent_account_controller.dart:129:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grand_parent_account_controller.dart:149:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grand_parent_account_controller.dart:152:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grandparent_account_list_controller.dart:32:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grandparent_account_list_controller.dart:45:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/grand_parent_account_controller/grandparent_account_list_controller.dart:47:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/home_controller.dart:50:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/home_controller.dart:79:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/home_controller.dart:91:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/home_controller.dart:165:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/home_controller.dart:178:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/home_controller.dart:180:7 • avoid_print
+warning • Unused import: 'package:emtrack/inspection/vehicle_inspe_controller.dart' • lib/controllers/inspect_tyre_controller.dart:1:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/controllers/inspect_tyre_controller.dart:97:9 • avoid_print
+warning • Dead code • lib/controllers/inspect_tyre_controller.dart:102:40 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/inspect_tyre_controller.dart:102:43 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/inspect_tyre_controller.dart:103:40 • dead_null_aware_expression
+warning • Dead code • lib/controllers/inspect_tyre_controller.dart:183:48 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/inspect_tyre_controller.dart:183:51 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/inspect_tyre_controller.dart:184:49 • dead_null_aware_expression
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/inspect_tyre_controller.dart:219:45 • dead_null_aware_expression
+   info • Don't invoke 'print' in production code • lib/controllers/inspect_tyre_controller.dart:241:7 • avoid_print
+warning • Dead code • lib/controllers/install_tyre_controller.dart:79:52 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/install_tyre_controller.dart:79:55 • dead_null_aware_expression
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:82:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:98:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:99:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:100:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:191:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:193:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:202:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:220:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:223:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:224:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:225:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:237:7 • avoid_print
+warning • Dead code • lib/controllers/install_tyre_controller.dart:333:33 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/install_tyre_controller.dart:333:36 • dead_null_aware_expression
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:346:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:347:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:368:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:369:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:370:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:371:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:372:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:373:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:374:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:375:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:376:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:377:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:378:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:379:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:380:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:381:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:382:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:383:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:384:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:385:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:386:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:387:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:388:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:389:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:390:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:391:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:392:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:393:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:404:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:405:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:406:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:407:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:408:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:409:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:410:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:411:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:412:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/install_tyre_controller.dart:413:7 • avoid_print
+warning • Unused import: 'package:emtrack/inspection/vehicle_inspe_view.dart' • lib/controllers/remove_tyre_controller.dart:2:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/controllers/remove_tyre_controller.dart:78:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/remove_tyre_controller.dart:95:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/remove_tyre_controller.dart:96:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/remove_tyre_controller.dart:98:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/remove_tyre_controller.dart:102:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/remove_tyre_controller.dart:169:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/search_install_tire_controller.dart:55:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/search_install_tire_controller.dart:57:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/search_install_tire_controller.dart:86:5 • avoid_print
+   info • The file name 'tyre_view_controller copy 2.dart' isn't a lower_case_with_underscores identifier • lib/controllers/tyre_view_controller copy 2.dart:1:1 • file_names
+   info • The file name 'tyre_view_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/controllers/tyre_view_controller copy.dart:1:1 • file_names
+warning • Unused import: '../utils/secure_storage.dart' • lib/controllers/tyre_view_controller copy.dart:15:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:88:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:103:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:118:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:133:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:148:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:163:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:178:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/tyre_view_controller.dart:193:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:56:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:57:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:58:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:59:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:60:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:62:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:140:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:148:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_hours_controller.dart:194:5 • avoid_print
+warning • This method overrides a method annotated as '@mustCallSuper' in 'DisposableInterface', but doesn't invoke the overridden method • lib/controllers/update_vehicle_controller.dart:87:8 • must_call_super
+   info • Don't invoke 'print' in production code • lib/controllers/update_vehicle_controller.dart:89:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_vehicle_controller.dart:121:5 • avoid_print
+warning • Dead code • lib/controllers/update_vehicle_controller.dart:144:62 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/controllers/update_vehicle_controller.dart:144:65 • dead_null_aware_expression
+   info • Don't invoke 'print' in production code • lib/controllers/update_vehicle_controller.dart:335:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/controllers/update_vehicle_controller.dart:380:5 • avoid_print
+   info • The file name 'create_tyre_controller copy 2.dart' isn't a lower_case_with_underscores identifier • lib/create_tyre/create_tyre_controller copy 2.dart:1:1 • file_names
+   info • The file name 'create_tyre_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/create_tyre/create_tyre_controller copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_controller.dart:162:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_controller.dart:295:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_controller.dart:384:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_controller.dart:627:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_controller.dart:774:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_controller.dart:781:7 • avoid_print
+warning • Unused import: 'dart:convert' • lib/create_tyre/create_tyre_model.dart:1:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_service.dart:26:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_service.dart:27:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_service.dart:39:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_service.dart:40:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/create_tyre/create_tyre_service.dart:65:7 • avoid_print
+   info • The file name 'step3_view copy.dart' isn't a lower_case_with_underscores identifier • lib/create_tyre/step3_view copy.dart:1:1 • file_names
+warning • A value for optional parameter 'keyboard' isn't ever given • lib/create_tyre/step3_view copy.dart:112:19 • unused_element_parameter
+warning • A value for optional parameter 'keyboardType' isn't ever given • lib/create_tyre/step4_view.dart:170:19 • unused_element_parameter
+   info • Don't invoke 'print' in production code • lib/create_tyre/step4_view.dart:399:35 • avoid_print
+   info • The file name 'edit_tyre_controller copy 2.dart' isn't a lower_case_with_underscores identifier • lib/edit_tyre/edit_tyre_controller copy 2.dart:1:1 • file_names
+warning • Unused import: 'dart:ffi' • lib/edit_tyre/edit_tyre_controller copy 2.dart:1:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller copy 2.dart:139:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller copy 2.dart:141:5 • avoid_print
+   info • The file name 'edit_tyre_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/edit_tyre/edit_tyre_controller copy.dart:1:1 • file_names
+warning • Unused import: 'dart:ffi' • lib/edit_tyre/edit_tyre_controller copy.dart:1:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller copy.dart:134:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller copy.dart:136:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:159:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:161:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:212:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:213:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:214:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:307:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:308:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:452:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:458:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:459:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:460:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:621:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_controller.dart:629:7 • avoid_print
+   info • The file name 'edit_tyre_service copy.dart' isn't a lower_case_with_underscores identifier • lib/edit_tyre/edit_tyre_service copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service copy.dart:20:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service copy.dart:27:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service copy.dart:28:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service copy.dart:47:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:18:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:30:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:42:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:43:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:56:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:67:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:74:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:75:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:78:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:81:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/edit_tyre/edit_tyre_service.dart:84:5 • avoid_print
+   info • The file name 'step2_view copy.dart' isn't a lower_case_with_underscores identifier • lib/edit_tyre/step2_view copy.dart:1:1 • file_names
+warning • Unused import: 'package:emtrack/create_tyre/create_tyre_controller.dart' • lib/edit_tyre/step2_view copy.dart:1:8 • unused_import
+warning • The declaration '_dropdownTF' isn't referenced • lib/edit_tyre/step2_view copy.dart:451:10 • unused_element
+warning • The declaration '_required' isn't referenced • lib/edit_tyre/step2_view copy.dart:524:11 • unused_element
+warning • Unused import: 'package:emtrack/create_tyre/create_tyre_controller.dart' • lib/edit_tyre/step2_view.dart:1:8 • unused_import
+warning • The declaration '_dropdownTF' isn't referenced • lib/edit_tyre/step2_view.dart:674:10 • unused_element
+warning • The declaration '_required' isn't referenced • lib/edit_tyre/step2_view.dart:747:11 • unused_element
+   info • The file name 'step3_view copy.dart' isn't a lower_case_with_underscores identifier • lib/edit_tyre/step3_view copy.dart:1:1 • file_names
+warning • Unused import: 'package:emtrack/create_tyre/create_tyre_controller.dart' • lib/edit_tyre/step3_view copy.dart:1:8 • unused_import
+warning • A value for optional parameter 'keyboard' isn't ever given • lib/edit_tyre/step3_view copy.dart:116:19 • unused_element_parameter
+warning • The declaration '_suffixTextTF' isn't referenced • lib/edit_tyre/step3_view copy.dart:146:10 • unused_element
+warning • The declaration '_required' isn't referenced • lib/edit_tyre/step3_view copy.dart:218:11 • unused_element
+warning • A value for optional parameter 'keyboardType' isn't ever given • lib/edit_tyre/step4_view.dart:182:19 • unused_element_parameter
+   info • Don't invoke 'print' in production code • lib/edit_tyre/step4_view.dart:547:35 • avoid_print
+warning • The declaration '_required' isn't referenced • lib/edit_tyre/step4_view.dart:630:11 • unused_element
+warning • Unused import: 'package:emtrack/widgets/vehicle_daigram.dart' • lib/inspection/edit_vehicle_inspection_view.dart:4:8 • unused_import
+warning • The declaration '_pickerPurple' isn't referenced • lib/inspection/update_hours_date_picker_dialog.dart:5:13 • unused_element
+   info • 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre • lib/inspection/update_hours_date_picker_dialog.dart:94:9 • deprecated_member_use
+   info • The file name 'update_hours_view copy.dart' isn't a lower_case_with_underscores identifier • lib/inspection/update_hours_view copy.dart:1:1 • file_names
+   info • The file name 'vehicle_inspe_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/inspection/vehicle_inspe_controller copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:50:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:52:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:62:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:63:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:64:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:65:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:66:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:68:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:167:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:176:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:178:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:202:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:220:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_controller.dart:234:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:20:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:21:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:22:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:30:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:31:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:34:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:37:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:40:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:44:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:67:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:68:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:72:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:73:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:84:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:88:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:91:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/inspection/vehicle_inspe_service.dart:95:7 • avoid_print
+warning • Unused import: 'package:emtrack/views/all_vehicles_list_view.dart' • lib/inspection/vehicle_inspe_view.dart:5:8 • unused_import
+warning • The value of the local variable 'tires' isn't used • lib/inspection/vehicle_inspe_view.dart:226:21 • unused_local_variable
+warning • The declaration '_inputField' isn't referenced • lib/inspection/vehicle_inspe_view.dart:571:10 • unused_element
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/inspection_tyre_vehicle/inspect_tyre_view_get.dart:267:40 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/inspection_tyre_vehicle/inspect_tyre_view_get.dart:267:58 • deprecated_member_use
+warning • Unused import: 'package:emtrack/inspection/edit_vehicle_inspection_view.dart' • lib/inspection_tyre_vehicle/inspection_vehicle_tyre_controller.dart:1:8 • unused_import
+warning • Unused import: 'package:emtrack/inspection/vehicle_inspe_view.dart' • lib/inspection_tyre_vehicle/inspection_vehicle_tyre_controller.dart:2:8 • unused_import
+warning • Unused import: 'package:emtrack/views/inspect_tyre_view.dart' • lib/inspection_tyre_vehicle/inspection_vehicle_tyre_controller.dart:6:8 • unused_import
+warning • The value of the local variable 'dummyStatuses' isn't used • lib/inspection_tyre_vehicle/inspection_vehicle_tyre_view.dart:15:34 • unused_local_variable
+warning • The declaration '_actionButton' isn't referenced • lib/inspection_tyre_vehicle/inspection_vehicle_tyre_view.dart:274:17 • unused_element
+   info • Don't invoke 'print' in production code • lib/inspection_tyre_vehicle/vehicle_inspe_controller2.dart:81:5 • avoid_print
+warning • Unused import: 'package:emtrack/widgets/vehicle_daigram.dart' • lib/inspection_tyre_vehicle/vehicle_inspe_view_get_data.dart:4:8 • unused_import
+   info • The file name 'Tire_remove_reason_model.dart' isn't a lower_case_with_underscores identifier • lib/models/masterDataMobileModel/Tire_remove_reason_model.dart:1:1 • file_names
+warning • Unused import: 'package:emtrack/controllers/all_tyre_controller.dart' • lib/routes/app_pages.dart:2:8 • unused_import
+warning • Unused import: 'package:emtrack/edit_tyre/edit_tyre_controller.dart' • lib/routes/app_pages.dart:4:8 • unused_import
+warning • Unused import: 'package:emtrack/views/vehicle_view.dart' • lib/routes/app_pages.dart:16:8 • unused_import
+   info • The constant name 'SPLASH' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:22:16 • constant_identifier_names
+   info • The constant name 'LOGIN' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:23:16 • constant_identifier_names
+   info • The constant name 'HOME' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:24:16 • constant_identifier_names
+   info • The constant name 'CREATE_TYRE' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:25:16 • constant_identifier_names
+   info • The constant name 'ALL_TYRE_WIEW' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:26:16 • constant_identifier_names
+   info • The constant name 'ALL_VEHICLE_WIEW' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:27:16 • constant_identifier_names
+   info • The constant name 'PREFERENCE' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:28:16 • constant_identifier_names
+   info • The constant name 'USER_MANAGEMENT_VIEW' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:29:16 • constant_identifier_names
+   info • The constant name 'UPDATE_HOURS' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:30:16 • constant_identifier_names
+   info • The constant name 'EDIT_TIRE_SCREEN' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:31:16 • constant_identifier_names
+   info • The constant name 'REMOVE_TIRE' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:32:16 • constant_identifier_names
+   info • The constant name 'VEHICLE_INSPEC_VIEW' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:33:16 • constant_identifier_names
+   info • The constant name 'INSTALL_TYRE_VIEW' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:34:16 • constant_identifier_names
+   info • The constant name 'VEHICLE_VIEW' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:35:16 • constant_identifier_names
+   info • The constant name 'PASSWORD_RESET' isn't a lowerCamelCase identifier • lib/routes/app_pages.dart:36:16 • constant_identifier_names
+   info • The file name 'Search_vehicle_tyre_controller copy.dart' isn't a lower_case_with_underscores identifier • lib/search_tyre_vehicle/Search_vehicle_tyre_controller copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/Search_vehicle_tyre_controller copy.dart:34:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/Search_vehicle_tyre_controller copy.dart:52:7 • avoid_print
+   info • The file name 'Search_vehicle_tyre_controller.dart' isn't a lower_case_with_underscores identifier • lib/search_tyre_vehicle/Search_vehicle_tyre_controller.dart:1:1 • file_names
+warning • Unused import: 'package:emtrack/inspection/vehicle_inspe_view.dart' • lib/search_tyre_vehicle/Search_vehicle_tyre_controller.dart:2:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/Search_vehicle_tyre_controller.dart:50:7 • avoid_print
+   info • Statements in an if should be enclosed in a block • lib/search_tyre_vehicle/search_api_service.dart:16:9 • curly_braces_in_flow_control_structures
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/search_api_service.dart:32:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/search_api_service.dart:33:7 • avoid_print
+   info • Statements in an if should be enclosed in a block • lib/search_tyre_vehicle/search_api_service.dart:46:9 • curly_braces_in_flow_control_structures
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/search_api_service.dart:50:7 • avoid_print
+   info • Statements in an if should be enclosed in a block • lib/search_tyre_vehicle/search_api_service.dart:60:9 • curly_braces_in_flow_control_structures
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/search_api_service.dart:73:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/search_api_service.dart:74:7 • avoid_print
+   info • Statements in an if should be enclosed in a block • lib/search_tyre_vehicle/search_api_service.dart:87:9 • curly_braces_in_flow_control_structures
+   info • Don't invoke 'print' in production code • lib/search_tyre_vehicle/search_api_service.dart:91:7 • avoid_print
+   info • The file name 'search_vehicle_tyre_view copy.dart' isn't a lower_case_with_underscores identifier • lib/search_tyre_vehicle/search_vehicle_tyre_view copy.dart:1:1 • file_names
+warning • Unused import: 'package:emtrack/create_tyre/create_tyre_screen.dart' • lib/search_tyre_vehicle/search_vehicle_tyre_view.dart:1:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:114:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:122:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:130:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:138:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:139:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:179:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:186:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:203:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/all_vehicles_services.dart:204:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:37:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:40:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:41:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:67:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/auth_service.dart:68:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/change_account_service.dart:91:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/change_account_service.dart:127:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/create_vehicle_service.dart:19:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/create_vehicle_service.dart:22:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/create_vehicle_service.dart:31:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/create_vehicle_service.dart:35:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/create_vehicle_service.dart:36:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/create_vehicle_service.dart:51:7 • avoid_print
+warning • Unused import: 'package:flutter/material.dart' • lib/services/global_logout_handler.dart:2:8 • unused_import
+warning • Unused import: 'package:emtrack/utils/secure_storage.dart' • lib/services/global_logout_handler.dart:4:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/services/grand_parent_account_service/grand_parent_account_service.dart:20:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/grand_parent_account_service/grand_parent_account_service.dart:39:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:31:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:32:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:39:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:55:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:62:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:86:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:87:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:93:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:100:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:133:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:152:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:159:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:160:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:165:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:174:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/home_service.dart:202:7 • avoid_print
+   info • The file name 'inspect_tyre_service copy.dart' isn't a lower_case_with_underscores identifier • lib/services/inspect_tyre_service copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service copy.dart:31:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service copy.dart:32:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service copy.dart:62:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:24:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:36:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:37:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:74:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:97:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:98:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/inspect_tyre_service.dart:117:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/install_tyre_service.dart:10:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/install_tyre_service.dart:40:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/install_tyre_service.dart:48:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/install_tyre_service.dart:49:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/install_tyre_service.dart:68:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/master_data_service.dart:14:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/master_data_service.dart:17:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/master_data_service.dart:27:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/master_data_service.dart:28:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/master_data_service.dart:29:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/master_data_service.dart:42:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/preferences_service.dart:40:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/preferences_service.dart:48:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/preferences_service.dart:49:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/preferences_service.dart:73:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/preferences_service.dart:77:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/preferences_service.dart:78:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:26:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:27:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:48:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:51:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:52:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:59:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:60:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:64:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:65:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:75:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/remove_tyre_service.dart:79:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:20:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:25:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:28:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:32:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:40:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:41:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:49:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:53:11 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:57:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:65:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:66:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:72:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:78:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:79:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:80:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:87:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:100:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:104:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:108:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:109:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_service.dart:110:7 • avoid_print
+   info • The file name 'tyre_view_service copy.dart' isn't a lower_case_with_underscores identifier • lib/services/tyre_view_service copy.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/services/tyre_view_service copy.dart:34:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/tyre_view_service copy.dart:39:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:13:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:22:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:23:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:24:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:36:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:37:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:40:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:45:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:50:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_hours_service.dart:51:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:28:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:45:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:63:5 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:73:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:74:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:77:9 • avoid_print
+   info • Don't invoke 'print' in production code • lib/services/update_vehicle_service.dart:94:7 • avoid_print
+warning • Unused import: 'package:emtrack/models/user_models.dart' • lib/user_management/user_management_list_service.dart:1:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/user_management/user_management_list_service.dart:22:7 • avoid_print
+warning • Unused import: 'package:emtrack/models/user_models.dart' • lib/user_management/user_management_list_view.dart:1:8 • unused_import
+warning • Unused import: 'package:flutter/material.dart' • lib/user_management/user_management_service.dart:6:8 • unused_import
+   info • Don't invoke 'print' in production code • lib/user_management/user_management_service.dart:23:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/user_management/user_management_service.dart:40:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/user_management/user_management_service.dart:64:7 • avoid_print
+warning • Duplicate import • lib/user_management/user_management_view.dart:8:8 • duplicate_import
+warning • Duplicate import • lib/user_management/user_management_view.dart:9:8 • duplicate_import
+warning • Duplicate import • lib/user_management/user_management_view.dart:10:8 • duplicate_import
+warning • Duplicate import • lib/user_management/user_management_view.dart:11:8 • duplicate_import
+   info • The variable name '_storage_preferences' isn't a lowerCamelCase identifier • lib/utils/secure_storage.dart:10:16 • non_constant_identifier_names
+   info • The file name 'Edit_vehicle.dart' isn't a lower_case_with_underscores identifier • lib/views/Edit_vehicle.dart:1:1 • file_names
+   info • Don't invoke 'print' in production code • lib/views/Edit_vehicle.dart:678:17 • avoid_print
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/views/all_tyres_view.dart:96:53 • deprecated_member_use
+   info • 'color' is deprecated and shouldn't be used. Use colorFilter instead • lib/views/all_tyres_view.dart:194:35 • deprecated_member_use
+warning • The declaration '_createTireFAB' isn't referenced • lib/views/all_tyres_view.dart:249:10 • unused_element
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/views/all_vehicles_list_view.dart:113:35 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/views/all_vehicles_list_view.dart:189:23 • avoid_print
+warning • The declaration '_createVehicleFAB' isn't referenced • lib/views/all_vehicles_list_view.dart:233:10 • unused_element
+   info • The file name 'change_account_view copy.dart' isn't a lower_case_with_underscores identifier • lib/views/change_account_view copy.dart:1:1 • file_names
+   info • The file name 'create_vehicle_view copy.dart' isn't a lower_case_with_underscores identifier • lib/views/create_vehicle_view copy.dart:1:1 • file_names
+warning • Unused import: 'package:emtrack/utils/secure_storage.dart' • lib/views/create_vehicle_view copy.dart:5:8 • unused_import
+warning • Unused import: 'package:emtrack/widgets/vehicle_daigram_Rotate_tyres.dart' • lib/views/create_vehicle_view copy.dart:6:8 • unused_import
+warning • Unused import: 'package:emtrack/utils/secure_storage.dart' • lib/views/create_vehicle_view.dart:5:8 • unused_import
+warning • Unused import: 'package:emtrack/widgets/vehicle_daigram_Rotate_tyres.dart' • lib/views/create_vehicle_view.dart:6:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/views/grand_parent_account_view/grand_parent_account_view.dart:38:37 • deprecated_member_use
+   info • Don't invoke 'print' in production code • lib/views/home/home_view.dart:36:7 • avoid_print
+   info • Don't invoke 'print' in production code • lib/views/home/home_view.dart:60:7 • avoid_print
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/views/home/home_view.dart:708:39 • deprecated_member_use
+   info • The file name 'home_view copy.dart' isn't a lower_case_with_underscores identifier • lib/views/home_view copy.dart:1:1 • file_names
+warning • The value of the local variable 't' isn't used • lib/views/inspect_tyre_view.dart:31:19 • unused_local_variable
+warning • Dead code • lib/views/inspect_tyre_view.dart:62:51 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/views/inspect_tyre_view.dart:62:54 • dead_null_aware_expression
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/views/inspect_tyre_view.dart:182:40 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/views/inspect_tyre_view.dart:182:58 • deprecated_member_use
+warning • The declaration '_dropdown' isn't referenced • lib/views/inspect_tyre_view.dart:365:10 • unused_element
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/views/install_tyre_view.dart:181:40 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/views/install_tyre_view.dart:181:58 • deprecated_member_use
+warning • The declaration '_dropdown' isn't referenced • lib/views/install_tyre_view.dart:525:10 • unused_element
+   info • Statements in an if should be enclosed in a block • lib/views/login_view.dart:138:37 • curly_braces_in_flow_control_structures
+warning • The declaration '_countrySelector' isn't referenced • lib/views/preferences_view.dart:58:10 • unused_element
+warning • The receiver can't be null, so the null-aware operator '?.' is unnecessary • lib/views/preferences_view.dart:115:52 • invalid_null_aware_operator
+warning • Dead code • lib/views/preferences_view.dart:125:71 • dead_code
+warning • The left operand can't be null, so the right operand is never executed • lib/views/preferences_view.dart:125:74 • dead_null_aware_expression
+   info • Statements in an if should be enclosed in a block • lib/views/remove_tyre_view.dart:107:21 • curly_braces_in_flow_control_structures
+   info • 'onWillAccept' is deprecated and shouldn't be used. Use onWillAcceptWithDetails instead. This callback is similar to onWillAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre • lib/views/rotate_tyres_view.dart:145:7 • deprecated_member_use
+   info • 'onAccept' is deprecated and shouldn't be used. Use onAcceptWithDetails instead. This callback is similar to onAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre • lib/views/rotate_tyres_view.dart:147:7 • deprecated_member_use
+warning • Unused import: 'package:emtrack/models/tyre_model.dart' • lib/views/search_install_view.dart:4:8 • unused_import
+warning • Unused import: 'package:emtrack/color/app_color.dart' • lib/views/splash_view.dart:1:8 • unused_import
+warning • The value of the local variable 'parentName' isn't used • lib/views/tyre_view.dart:55:15 • unused_local_variable
+warning • The value of the local variable 'tires' isn't used • lib/views/vehicle_view.dart:125:27 • unused_local_variable
+   info • The file name 'vehicle_daigram copy 2.dart' isn't a lower_case_with_underscores identifier • lib/widgets/vehicle_daigram copy 2.dart:1:1 • file_names
+   info • The file name 'vehicle_daigram copy 3.dart' isn't a lower_case_with_underscores identifier • lib/widgets/vehicle_daigram copy 3.dart:1:1 • file_names
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/vehicle_daigram copy 3.dart:88:43 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/widgets/vehicle_daigram copy 3.dart:137:39 • deprecated_member_use
+   info • The file name 'vehicle_daigram copy.dart' isn't a lower_case_with_underscores identifier • lib/widgets/vehicle_daigram copy.dart:1:1 • file_names
+   info • The file name 'vehicle_daigram_Rotate_tyres.dart' isn't a lower_case_with_underscores identifier • lib/widgets/vehicle_daigram_Rotate_tyres.dart:1:1 • file_names
+   info • 'onWillAccept' is deprecated and shouldn't be used. Use onWillAcceptWithDetails instead. This callback is similar to onWillAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre • lib/widgets/vehicle_daigram_Rotate_tyres.dart:85:7 • deprecated_member_use
+   info • 'onAccept' is deprecated and shouldn't be used. Use onAcceptWithDetails instead. This callback is similar to onAcceptWithDetails but does not provide drag details. This feature was deprecated after v3.14.0-0.2.pre • lib/widgets/vehicle_daigram_Rotate_tyres.dart:86:7 • deprecated_member_use
+warning • Unused import: 'package:emtrack/views/inspect_tyre_view.dart' • lib/widgets/vehicle_daigram_for_view.dart:2:8 • unused_import
+warning • Unused import: 'package:emtrack/views/search_install_view.dart' • lib/widgets/vehicle_daigram_for_view.dart:3:8 • unused_import
+
+492 issues found. (ran in 14.7s)
